@@ -57,7 +57,4 @@ for employee in employees:
         assert employee_data[1].is_displayed()
         assert round(EMPLOYEE_BENEFIT_COST_PAYCHECK + DEPENDENT_BENEFIT_COST_PAYCHECK * dependents, 2) == benefits_cost
 
-
-
 # print(get_table_columns(rows[1])[0].text)
-

@@ -1,9 +1,9 @@
 import requests
 import json
 from typing import Final
-from Constants import BASE_URL
-from Constants import HEADER
-from Constants import HTTP_SUCCESS
+from Constants import BASE_URL, HEADER, HTTP_SUCCESS
+# from Constants import HEADER
+# from Constants import HTTP_SUCCESS
 
 EMPLOYEE_API_URL: Final = BASE_URL + 'api/employees/'
 
